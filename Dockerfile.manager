@@ -11,6 +11,6 @@ WORKDIR /flamenco
 
 COPY ./flamenco-manager.yaml ./flamenco-manager.yaml
 
-EXPOSE 8080
+EXPOSE 8689
 
 CMD ["./flamenco-manager"]
