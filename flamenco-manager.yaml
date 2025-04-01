@@ -25,3 +25,22 @@ variables:
     values:
       - platform: all
         value: -b -y
+  job_storage:
+    direction: twoway
+    values:
+      - audience: workers
+        platform: linux
+        value: /mnt/shared/flamenco/jobs
+      - audience: workers
+        platform: windows
+        value: T:/flamenco/jobs
+
+  render:
+    direction: twoway
+    values:
+      - audience: workers
+        platform: linux
+        value: /mnt/shared/flamenco/render
+      - audience: workers
+        platform: windows
+        value: T:/flamenco/render
