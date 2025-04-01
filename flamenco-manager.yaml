@@ -2,7 +2,7 @@ _meta:
   version: 3
 manager_name: Flamenco Manager
 database: flamenco-manager.sqlite
-listen: :8080
+listen: :8689
 autodiscoverable: true
 local_manager_storage_path: ./flamenco-manager-storage
 shared_storage_path: /mnt/shared/flamenco
